@@ -5,9 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "dev": "tsnd --respawn src/index.ts",
-    "test": "jest",
-    "test:int": "jest -t 'Int - '",
-    "test:unit": "jest -t 'Unit - '"
+    "test": "jest"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
